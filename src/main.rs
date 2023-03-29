@@ -21,13 +21,10 @@ fn main() {
 
   let num: u128 = num.trim().parse().expect("Failed to read number.");
 
-  let fibnum: u128 = fib(num);
-
-  println!("The fibonacci number is: {fibnum}");
+  for i in 0..=num {
+    let result = fib(i);
+    println!("{}", result)
+  }
 }
-// for i in 0..=30 {
-//   let result = fib(i);
-//   println!("{}", result)
-// }
 
 }
