@@ -25,9 +25,5 @@ fn main() {
 
   println!("The fibonacci number is: {fibnum}");
 }
-// for i in 0..=30 {
-//   let result = fib(i);
-//   println!("{}", result)
-// }
 
 }
